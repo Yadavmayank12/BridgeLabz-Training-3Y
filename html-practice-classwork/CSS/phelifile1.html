@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Image Box</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .box {
+            width: 400px;
+            padding: 40px;
+
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .box h1 {
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+        }
+
+        .box p {
+            font-family: Arial, sans-serif;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h1>Welcome</h1>
+        <p>This is my box on a background image.</p>
+    </div>
+
+</body>
+</html>
