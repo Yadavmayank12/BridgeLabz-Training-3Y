@@ -1,0 +1,107 @@
+/* Page */
+
+body {
+    margin: 0;
+    padding: 40px;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    min-height: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+
+/* Form */
+
+form {
+    max-width: 700px;
+    margin: auto;
+
+    padding: 30px;
+
+    border-radius: 15px;
+}
+
+
+
+fieldset {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+}
+
+
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 0 10px;
+
+    color: #333;
+}
+
+
+
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+
+textarea {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 8px;
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+    border-radius: 7px;
+
+    font-size: 15px;
+
+    box-sizing: border-box;
+}
+
+/* Buttons */
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-right: 10px;
+}
+
+
+/* Submit Button */
+
+input[type="submit"] {
+    background: #2563eb;
+    color: white;
+}
+
+
+/* Reset Button */
+
+input[type="reset"] {
+    background: #777;
+    color: white;
+}
